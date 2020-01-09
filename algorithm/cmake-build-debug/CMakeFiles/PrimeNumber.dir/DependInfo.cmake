@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/tkdwl/Desktop/Github/algorithm1/backjoon.cpp" "C:/Users/tkdwl/Desktop/Github/algorithm1/cmake-build-debug/CMakeFiles/backjoon.dir/backjoon.cpp.obj"
+  "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/PrimeNumber.cpp" "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/PrimeNumber.dir/PrimeNumber.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

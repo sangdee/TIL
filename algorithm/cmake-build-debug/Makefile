@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\tkdwl\Desktop\Github\algorithm1
+CMAKE_SOURCE_DIR = C:\Users\tkdwl\Desktop\Github\TIL\algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug\CMakeFiles C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named backjoon
-
-# Build rule for target.
-backjoon: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 backjoon
-.PHONY : backjoon
-
-# fast build rule for target.
-backjoon/fast:
-	$(MAKE) -f CMakeFiles\backjoon.dir\build.make CMakeFiles/backjoon.dir/build
-.PHONY : backjoon/fast
-
-#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -135,59 +122,155 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-backjoon.obj: backjoon.cpp.obj
+#=============================================================================
+# Target rules for targets named PrimeNumber
 
-.PHONY : backjoon.obj
+# Build rule for target.
+PrimeNumber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 PrimeNumber
+.PHONY : PrimeNumber
+
+# fast build rule for target.
+PrimeNumber/fast:
+	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/build
+.PHONY : PrimeNumber/fast
+
+#=============================================================================
+# Target rules for targets named euclid
+
+# Build rule for target.
+euclid: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 euclid
+.PHONY : euclid
+
+# fast build rule for target.
+euclid/fast:
+	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/build
+.PHONY : euclid/fast
+
+#=============================================================================
+# Target rules for targets named Eratosthenes
+
+# Build rule for target.
+Eratosthenes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Eratosthenes
+.PHONY : Eratosthenes
+
+# fast build rule for target.
+Eratosthenes/fast:
+	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/build
+.PHONY : Eratosthenes/fast
+
+Eratosthenes.obj: Eratosthenes.cpp.obj
+
+.PHONY : Eratosthenes.obj
 
 # target to build an object file
-backjoon.cpp.obj:
-	$(MAKE) -f CMakeFiles\backjoon.dir\build.make CMakeFiles/backjoon.dir/backjoon.cpp.obj
-.PHONY : backjoon.cpp.obj
+Eratosthenes.cpp.obj:
+	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/Eratosthenes.cpp.obj
+	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/Eratosthenes.cpp.obj
+.PHONY : Eratosthenes.cpp.obj
 
-backjoon.i: backjoon.cpp.i
+Eratosthenes.i: Eratosthenes.cpp.i
 
-.PHONY : backjoon.i
+.PHONY : Eratosthenes.i
 
 # target to preprocess a source file
-backjoon.cpp.i:
-	$(MAKE) -f CMakeFiles\backjoon.dir\build.make CMakeFiles/backjoon.dir/backjoon.cpp.i
-.PHONY : backjoon.cpp.i
+Eratosthenes.cpp.i:
+	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/Eratosthenes.cpp.i
+	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/Eratosthenes.cpp.i
+.PHONY : Eratosthenes.cpp.i
 
-backjoon.s: backjoon.cpp.s
+Eratosthenes.s: Eratosthenes.cpp.s
 
-.PHONY : backjoon.s
+.PHONY : Eratosthenes.s
 
 # target to generate assembly for a file
-backjoon.cpp.s:
-	$(MAKE) -f CMakeFiles\backjoon.dir\build.make CMakeFiles/backjoon.dir/backjoon.cpp.s
-.PHONY : backjoon.cpp.s
+Eratosthenes.cpp.s:
+	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/Eratosthenes.cpp.s
+	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/Eratosthenes.cpp.s
+.PHONY : Eratosthenes.cpp.s
 
-main.obj: main.cpp.obj
+PrimeNumber.obj: PrimeNumber.cpp.obj
 
-.PHONY : main.obj
+.PHONY : PrimeNumber.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+PrimeNumber.cpp.obj:
+	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/PrimeNumber.cpp.obj
+.PHONY : PrimeNumber.cpp.obj
 
-main.i: main.cpp.i
+PrimeNumber.i: PrimeNumber.cpp.i
 
-.PHONY : main.i
+.PHONY : PrimeNumber.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+PrimeNumber.cpp.i:
+	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/PrimeNumber.cpp.i
+.PHONY : PrimeNumber.cpp.i
 
-main.s: main.cpp.s
+PrimeNumber.s: PrimeNumber.cpp.s
 
-.PHONY : main.s
+.PHONY : PrimeNumber.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+PrimeNumber.cpp.s:
+	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/PrimeNumber.cpp.s
+.PHONY : PrimeNumber.cpp.s
+
+alarusse.obj: alarusse.cpp.obj
+
+.PHONY : alarusse.obj
+
+# target to build an object file
+alarusse.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/alarusse.cpp.obj
+.PHONY : alarusse.cpp.obj
+
+alarusse.i: alarusse.cpp.i
+
+.PHONY : alarusse.i
+
+# target to preprocess a source file
+alarusse.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/alarusse.cpp.i
+.PHONY : alarusse.cpp.i
+
+alarusse.s: alarusse.cpp.s
+
+.PHONY : alarusse.s
+
+# target to generate assembly for a file
+alarusse.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/alarusse.cpp.s
+.PHONY : alarusse.cpp.s
+
+euclid.obj: euclid.cpp.obj
+
+.PHONY : euclid.obj
+
+# target to build an object file
+euclid.cpp.obj:
+	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/euclid.cpp.obj
+.PHONY : euclid.cpp.obj
+
+euclid.i: euclid.cpp.i
+
+.PHONY : euclid.i
+
+# target to preprocess a source file
+euclid.cpp.i:
+	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/euclid.cpp.i
+.PHONY : euclid.cpp.i
+
+euclid.s: euclid.cpp.s
+
+.PHONY : euclid.s
+
+# target to generate assembly for a file
+euclid.cpp.s:
+	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/euclid.cpp.s
+.PHONY : euclid.cpp.s
 
 # Help Target
 help:
@@ -196,15 +279,23 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... backjoon
 	@echo ... main
+	@echo ... PrimeNumber
 	@echo ... rebuild_cache
-	@echo ... backjoon.obj
-	@echo ... backjoon.i
-	@echo ... backjoon.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... euclid
+	@echo ... Eratosthenes
+	@echo ... Eratosthenes.obj
+	@echo ... Eratosthenes.i
+	@echo ... Eratosthenes.s
+	@echo ... PrimeNumber.obj
+	@echo ... PrimeNumber.i
+	@echo ... PrimeNumber.s
+	@echo ... alarusse.obj
+	@echo ... alarusse.i
+	@echo ... alarusse.s
+	@echo ... euclid.obj
+	@echo ... euclid.i
+	@echo ... euclid.s
 .PHONY : help
 
 

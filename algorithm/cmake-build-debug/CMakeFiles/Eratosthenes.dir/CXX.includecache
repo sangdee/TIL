@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/tkdwl/Desktop/Github/algorithm1/backjoon.cpp
-stdio.h
+C:/Users/tkdwl/Desktop/Github/TIL/algorithm/Eratosthenes.cpp
+cstdio
+-
+cmath
 -
 

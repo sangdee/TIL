@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\tkdwl\Desktop\Github\algorithm1
+CMAKE_SOURCE_DIR = C:\Users\tkdwl\Desktop\Github\TIL\algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/euclid.dir/depend.make
@@ -58,45 +58,45 @@ include CMakeFiles/euclid.dir/flags.make
 
 CMakeFiles/euclid.dir/euclid.cpp.obj: CMakeFiles/euclid.dir/flags.make
 CMakeFiles/euclid.dir/euclid.cpp.obj: ../euclid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/euclid.dir/euclid.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\euclid.dir\euclid.cpp.obj -c C:\Users\tkdwl\Desktop\Github\algorithm1\euclid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/euclid.dir/euclid.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\euclid.dir\euclid.cpp.obj -c C:\Users\tkdwl\Desktop\Github\TIL\algorithm\euclid.cpp
 
 CMakeFiles/euclid.dir/euclid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/euclid.dir/euclid.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tkdwl\Desktop\Github\algorithm1\euclid.cpp > CMakeFiles\euclid.dir\euclid.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tkdwl\Desktop\Github\TIL\algorithm\euclid.cpp > CMakeFiles\euclid.dir\euclid.cpp.i
 
 CMakeFiles/euclid.dir/euclid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/euclid.dir/euclid.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tkdwl\Desktop\Github\algorithm1\euclid.cpp -o CMakeFiles\euclid.dir\euclid.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tkdwl\Desktop\Github\TIL\algorithm\euclid.cpp -o CMakeFiles\euclid.dir\euclid.cpp.s
 
-CMakeFiles/euclid.dir/backjoon.cpp.obj: CMakeFiles/euclid.dir/flags.make
-CMakeFiles/euclid.dir/backjoon.cpp.obj: ../backjoon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/euclid.dir/backjoon.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\euclid.dir\backjoon.cpp.obj -c C:\Users\tkdwl\Desktop\Github\algorithm1\backjoon.cpp
+CMakeFiles/euclid.dir/Eratosthenes.cpp.obj: CMakeFiles/euclid.dir/flags.make
+CMakeFiles/euclid.dir/Eratosthenes.cpp.obj: ../Eratosthenes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/euclid.dir/Eratosthenes.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\euclid.dir\Eratosthenes.cpp.obj -c C:\Users\tkdwl\Desktop\Github\TIL\algorithm\Eratosthenes.cpp
 
-CMakeFiles/euclid.dir/backjoon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/euclid.dir/backjoon.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tkdwl\Desktop\Github\algorithm1\backjoon.cpp > CMakeFiles\euclid.dir\backjoon.cpp.i
+CMakeFiles/euclid.dir/Eratosthenes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/euclid.dir/Eratosthenes.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tkdwl\Desktop\Github\TIL\algorithm\Eratosthenes.cpp > CMakeFiles\euclid.dir\Eratosthenes.cpp.i
 
-CMakeFiles/euclid.dir/backjoon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/euclid.dir/backjoon.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tkdwl\Desktop\Github\algorithm1\backjoon.cpp -o CMakeFiles\euclid.dir\backjoon.cpp.s
+CMakeFiles/euclid.dir/Eratosthenes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/euclid.dir/Eratosthenes.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tkdwl\Desktop\Github\TIL\algorithm\Eratosthenes.cpp -o CMakeFiles\euclid.dir\Eratosthenes.cpp.s
 
 # Object files for target euclid
 euclid_OBJECTS = \
 "CMakeFiles/euclid.dir/euclid.cpp.obj" \
-"CMakeFiles/euclid.dir/backjoon.cpp.obj"
+"CMakeFiles/euclid.dir/Eratosthenes.cpp.obj"
 
 # External object files for target euclid
 euclid_EXTERNAL_OBJECTS =
 
 euclid.exe: CMakeFiles/euclid.dir/euclid.cpp.obj
-euclid.exe: CMakeFiles/euclid.dir/backjoon.cpp.obj
+euclid.exe: CMakeFiles/euclid.dir/Eratosthenes.cpp.obj
 euclid.exe: CMakeFiles/euclid.dir/build.make
 euclid.exe: CMakeFiles/euclid.dir/linklibs.rsp
 euclid.exe: CMakeFiles/euclid.dir/objects1.rsp
 euclid.exe: CMakeFiles/euclid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable euclid.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable euclid.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\euclid.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/euclid.dir/clean:
 .PHONY : CMakeFiles/euclid.dir/clean
 
 CMakeFiles/euclid.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\tkdwl\Desktop\Github\algorithm1 C:\Users\tkdwl\Desktop\Github\algorithm1 C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug C:\Users\tkdwl\Desktop\Github\algorithm1\cmake-build-debug\CMakeFiles\euclid.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\tkdwl\Desktop\Github\TIL\algorithm C:\Users\tkdwl\Desktop\Github\TIL\algorithm C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles\euclid.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/euclid.dir/depend
 

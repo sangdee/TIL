@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/tkdwl/Desktop/Github/algorithm1/main.cpp
+C:/Users/tkdwl/Desktop/Github/TIL/algorithm/PrimeNumber.cpp
 stdio.h
+-
+math.h
 -
 
