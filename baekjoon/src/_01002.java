@@ -7,7 +7,7 @@ import static java.lang.Math.*;
  * @when : 2020-01-07 오후 4:45
  * @homepage : https://github.com/sangji11
  */
-public class turlet {
+public class _01002 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
