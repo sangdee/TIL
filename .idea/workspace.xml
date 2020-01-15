@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="855b7c92-9f0c-4c82-bf06-a4efbbc27ba2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fe74d5eb-e9c5-4200-bd67-ea50d31ef52a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/language/js/01_helloworld/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/js/01_helloworld/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/js/01_helloworld/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/js/variable/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/js/variable/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/js/variable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,22 +19,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1W3fI6njnEHZbrI3ZCnx9PRgVV6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1WQJvaeZKvEPr0Nyogt1ekFXQHw" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/language/js/variable" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -37,10 +44,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tkdwl\Desktop\Github\TIL\language\js\variable" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,40 +66,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._01003">
-    <configuration name="_01002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01002" />
-      <module name="untitled2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_01003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01003" />
-      <module name="untitled2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application._01003" />
-        <item itemvalue="Application._01002" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="855b7c92-9f0c-4c82-bf06-a4efbbc27ba2" name="Default Changelist" comment="" />
-      <created>1578383115600</created>
+      <changelist id="fe74d5eb-e9c5-4200-bd67-ea50d31ef52a" name="Default Changelist" comment="" />
+      <created>1579076116201</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578383115600</updated>
-      <workItem from="1578383120440" duration="5004000" />
-      <workItem from="1579063590914" duration="8333000" />
+      <updated>1579076116201</updated>
+      <workItem from="1579076118167" duration="2763000" />
     </task>
     <servers />
   </component>
