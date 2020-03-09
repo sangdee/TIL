@@ -64,150 +64,76 @@ CMAKE_SOURCE_DIR = C:\Users\tkdwl\Desktop\Github\TIL\algorithm
 CMAKE_BINARY_DIR = C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/SelectionSort.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/SelectionSort.dir/all:
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/depend
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target SelectionSort"
+.PHONY : CMakeFiles/SelectionSort.dir/all
 
 # Include target in all.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/SelectionSort.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
-
-# Convenience name for target.
-main: CMakeFiles/main.dir/rule
-
-.PHONY : main
-
-# clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/main.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/PrimeNumber.dir
-
-# All Build rule for target.
-CMakeFiles/PrimeNumber.dir/all:
-	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/depend
-	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target PrimeNumber"
-.PHONY : CMakeFiles/PrimeNumber.dir/all
-
-# Include target in all.
-all: CMakeFiles/PrimeNumber.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PrimeNumber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/PrimeNumber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/PrimeNumber.dir/rule
-
-# Convenience name for target.
-PrimeNumber: CMakeFiles/PrimeNumber.dir/rule
-
-.PHONY : PrimeNumber
-
-# clean rule for target.
-CMakeFiles/PrimeNumber.dir/clean:
-	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/clean
-.PHONY : CMakeFiles/PrimeNumber.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/PrimeNumber.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/euclid.dir
-
-# All Build rule for target.
-CMakeFiles/euclid.dir/all:
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/depend
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=5,6,7 "Built target euclid"
-.PHONY : CMakeFiles/euclid.dir/all
-
-# Include target in all.
-all: CMakeFiles/euclid.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/euclid.dir/rule: cmake_check_build_system
+CMakeFiles/SelectionSort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/euclid.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SelectionSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/euclid.dir/rule
+.PHONY : CMakeFiles/SelectionSort.dir/rule
 
 # Convenience name for target.
-euclid: CMakeFiles/euclid.dir/rule
+SelectionSort: CMakeFiles/SelectionSort.dir/rule
 
-.PHONY : euclid
-
-# clean rule for target.
-CMakeFiles/euclid.dir/clean:
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/clean
-.PHONY : CMakeFiles/euclid.dir/clean
+.PHONY : SelectionSort
 
 # clean rule for target.
-clean: CMakeFiles/euclid.dir/clean
+CMakeFiles/SelectionSort.dir/clean:
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/clean
+.PHONY : CMakeFiles/SelectionSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/SelectionSort.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Eratosthenes.dir
+# Target rules for target CMakeFiles/BubbleSort.dir
 
 # All Build rule for target.
-CMakeFiles/Eratosthenes.dir/all:
-	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/depend
-	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Eratosthenes"
-.PHONY : CMakeFiles/Eratosthenes.dir/all
+CMakeFiles/BubbleSort.dir/all:
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/depend
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target BubbleSort"
+.PHONY : CMakeFiles/BubbleSort.dir/all
 
 # Include target in all.
-all: CMakeFiles/Eratosthenes.dir/all
+all: CMakeFiles/BubbleSort.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Eratosthenes.dir/rule: cmake_check_build_system
+CMakeFiles/BubbleSort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Eratosthenes.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/BubbleSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Eratosthenes.dir/rule
+.PHONY : CMakeFiles/BubbleSort.dir/rule
 
 # Convenience name for target.
-Eratosthenes: CMakeFiles/Eratosthenes.dir/rule
+BubbleSort: CMakeFiles/BubbleSort.dir/rule
 
-.PHONY : Eratosthenes
-
-# clean rule for target.
-CMakeFiles/Eratosthenes.dir/clean:
-	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/clean
-.PHONY : CMakeFiles/Eratosthenes.dir/clean
+.PHONY : BubbleSort
 
 # clean rule for target.
-clean: CMakeFiles/Eratosthenes.dir/clean
+CMakeFiles/BubbleSort.dir/clean:
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/clean
+.PHONY : CMakeFiles/BubbleSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BubbleSort.dir/clean
 
 .PHONY : clean
 

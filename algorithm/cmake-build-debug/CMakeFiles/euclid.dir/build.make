@@ -69,29 +69,29 @@ CMakeFiles/euclid.dir/euclid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/euclid.dir/euclid.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tkdwl\Desktop\Github\TIL\algorithm\euclid.cpp -o CMakeFiles\euclid.dir\euclid.cpp.s
 
-CMakeFiles/euclid.dir/Eratosthenes.cpp.obj: CMakeFiles/euclid.dir/flags.make
-CMakeFiles/euclid.dir/Eratosthenes.cpp.obj: ../Eratosthenes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/euclid.dir/Eratosthenes.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\euclid.dir\Eratosthenes.cpp.obj -c C:\Users\tkdwl\Desktop\Github\TIL\algorithm\Eratosthenes.cpp
+CMakeFiles/euclid.dir/SelectionSort.cpp.obj: CMakeFiles/euclid.dir/flags.make
+CMakeFiles/euclid.dir/SelectionSort.cpp.obj: ../SelectionSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/euclid.dir/SelectionSort.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\euclid.dir\SelectionSort.cpp.obj -c C:\Users\tkdwl\Desktop\Github\TIL\algorithm\SelectionSort.cpp
 
-CMakeFiles/euclid.dir/Eratosthenes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/euclid.dir/Eratosthenes.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tkdwl\Desktop\Github\TIL\algorithm\Eratosthenes.cpp > CMakeFiles\euclid.dir\Eratosthenes.cpp.i
+CMakeFiles/euclid.dir/SelectionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/euclid.dir/SelectionSort.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tkdwl\Desktop\Github\TIL\algorithm\SelectionSort.cpp > CMakeFiles\euclid.dir\SelectionSort.cpp.i
 
-CMakeFiles/euclid.dir/Eratosthenes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/euclid.dir/Eratosthenes.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tkdwl\Desktop\Github\TIL\algorithm\Eratosthenes.cpp -o CMakeFiles\euclid.dir\Eratosthenes.cpp.s
+CMakeFiles/euclid.dir/SelectionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/euclid.dir/SelectionSort.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tkdwl\Desktop\Github\TIL\algorithm\SelectionSort.cpp -o CMakeFiles\euclid.dir\SelectionSort.cpp.s
 
 # Object files for target euclid
 euclid_OBJECTS = \
 "CMakeFiles/euclid.dir/euclid.cpp.obj" \
-"CMakeFiles/euclid.dir/Eratosthenes.cpp.obj"
+"CMakeFiles/euclid.dir/SelectionSort.cpp.obj"
 
 # External object files for target euclid
 euclid_EXTERNAL_OBJECTS =
 
 euclid.exe: CMakeFiles/euclid.dir/euclid.cpp.obj
-euclid.exe: CMakeFiles/euclid.dir/Eratosthenes.cpp.obj
+euclid.exe: CMakeFiles/euclid.dir/SelectionSort.cpp.obj
 euclid.exe: CMakeFiles/euclid.dir/build.make
 euclid.exe: CMakeFiles/euclid.dir/linklibs.rsp
 euclid.exe: CMakeFiles/euclid.dir/objects1.rsp

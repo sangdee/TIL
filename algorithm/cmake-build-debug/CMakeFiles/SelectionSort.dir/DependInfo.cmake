@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/SelectionSort.cpp" "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/euclid.dir/SelectionSort.cpp.obj"
-  "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/euclid.cpp" "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/euclid.dir/euclid.cpp.obj"
+  "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/BubbleSort.cpp" "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/SelectionSort.dir/BubbleSort.cpp.obj"
+  "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/SelectionSort.cpp" "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/SelectionSort.dir/SelectionSort.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

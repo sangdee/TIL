@@ -1,6 +1,4 @@
+C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/SelectionSort.dir
+C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/BubbleSort.dir
 C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/main.dir
-C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/PrimeNumber.dir
 C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/euclid.dir
-C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/Eratosthenes.dir

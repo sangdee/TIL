@@ -51,8 +51,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
-  "CMakeFiles/PrimeNumber.dir/DependInfo.cmake"
-  "CMakeFiles/euclid.dir/DependInfo.cmake"
-  "CMakeFiles/Eratosthenes.dir/DependInfo.cmake"
+  "CMakeFiles/SelectionSort.dir/DependInfo.cmake"
+  "CMakeFiles/BubbleSort.dir/DependInfo.cmake"
   )

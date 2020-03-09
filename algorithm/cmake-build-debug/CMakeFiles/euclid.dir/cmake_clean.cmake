@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/euclid.dir/euclid.cpp.obj"
-  "CMakeFiles/euclid.dir/Eratosthenes.cpp.obj"
+  "CMakeFiles/euclid.dir/SelectionSort.cpp.obj"
   "euclid.pdb"
   "euclid.exe"
   "euclid.exe.manifest"

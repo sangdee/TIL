@@ -110,167 +110,87 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named SelectionSort
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 main
-.PHONY : main
+SelectionSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SelectionSort
+.PHONY : SelectionSort
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+SelectionSort/fast:
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/build
+.PHONY : SelectionSort/fast
 
 #=============================================================================
-# Target rules for targets named PrimeNumber
+# Target rules for targets named BubbleSort
 
 # Build rule for target.
-PrimeNumber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 PrimeNumber
-.PHONY : PrimeNumber
+BubbleSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 BubbleSort
+.PHONY : BubbleSort
 
 # fast build rule for target.
-PrimeNumber/fast:
-	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/build
-.PHONY : PrimeNumber/fast
+BubbleSort/fast:
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
+.PHONY : BubbleSort/fast
 
-#=============================================================================
-# Target rules for targets named euclid
+BubbleSort.obj: BubbleSort.cpp.obj
 
-# Build rule for target.
-euclid: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 euclid
-.PHONY : euclid
-
-# fast build rule for target.
-euclid/fast:
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/build
-.PHONY : euclid/fast
-
-#=============================================================================
-# Target rules for targets named Eratosthenes
-
-# Build rule for target.
-Eratosthenes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Eratosthenes
-.PHONY : Eratosthenes
-
-# fast build rule for target.
-Eratosthenes/fast:
-	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/build
-.PHONY : Eratosthenes/fast
-
-Eratosthenes.obj: Eratosthenes.cpp.obj
-
-.PHONY : Eratosthenes.obj
+.PHONY : BubbleSort.obj
 
 # target to build an object file
-Eratosthenes.cpp.obj:
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/Eratosthenes.cpp.obj
-	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/Eratosthenes.cpp.obj
-.PHONY : Eratosthenes.cpp.obj
+BubbleSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/BubbleSort.cpp.obj
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/BubbleSort.cpp.obj
+.PHONY : BubbleSort.cpp.obj
 
-Eratosthenes.i: Eratosthenes.cpp.i
+BubbleSort.i: BubbleSort.cpp.i
 
-.PHONY : Eratosthenes.i
+.PHONY : BubbleSort.i
 
 # target to preprocess a source file
-Eratosthenes.cpp.i:
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/Eratosthenes.cpp.i
-	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/Eratosthenes.cpp.i
-.PHONY : Eratosthenes.cpp.i
+BubbleSort.cpp.i:
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/BubbleSort.cpp.i
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/BubbleSort.cpp.i
+.PHONY : BubbleSort.cpp.i
 
-Eratosthenes.s: Eratosthenes.cpp.s
+BubbleSort.s: BubbleSort.cpp.s
 
-.PHONY : Eratosthenes.s
+.PHONY : BubbleSort.s
 
 # target to generate assembly for a file
-Eratosthenes.cpp.s:
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/Eratosthenes.cpp.s
-	$(MAKE) -f CMakeFiles\Eratosthenes.dir\build.make CMakeFiles/Eratosthenes.dir/Eratosthenes.cpp.s
-.PHONY : Eratosthenes.cpp.s
+BubbleSort.cpp.s:
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/BubbleSort.cpp.s
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/BubbleSort.cpp.s
+.PHONY : BubbleSort.cpp.s
 
-PrimeNumber.obj: PrimeNumber.cpp.obj
+SelectionSort.obj: SelectionSort.cpp.obj
 
-.PHONY : PrimeNumber.obj
+.PHONY : SelectionSort.obj
 
 # target to build an object file
-PrimeNumber.cpp.obj:
-	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/PrimeNumber.cpp.obj
-.PHONY : PrimeNumber.cpp.obj
+SelectionSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/SelectionSort.cpp.obj
+.PHONY : SelectionSort.cpp.obj
 
-PrimeNumber.i: PrimeNumber.cpp.i
+SelectionSort.i: SelectionSort.cpp.i
 
-.PHONY : PrimeNumber.i
-
-# target to preprocess a source file
-PrimeNumber.cpp.i:
-	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/PrimeNumber.cpp.i
-.PHONY : PrimeNumber.cpp.i
-
-PrimeNumber.s: PrimeNumber.cpp.s
-
-.PHONY : PrimeNumber.s
-
-# target to generate assembly for a file
-PrimeNumber.cpp.s:
-	$(MAKE) -f CMakeFiles\PrimeNumber.dir\build.make CMakeFiles/PrimeNumber.dir/PrimeNumber.cpp.s
-.PHONY : PrimeNumber.cpp.s
-
-alarusse.obj: alarusse.cpp.obj
-
-.PHONY : alarusse.obj
-
-# target to build an object file
-alarusse.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/alarusse.cpp.obj
-.PHONY : alarusse.cpp.obj
-
-alarusse.i: alarusse.cpp.i
-
-.PHONY : alarusse.i
+.PHONY : SelectionSort.i
 
 # target to preprocess a source file
-alarusse.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/alarusse.cpp.i
-.PHONY : alarusse.cpp.i
+SelectionSort.cpp.i:
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/SelectionSort.cpp.i
+.PHONY : SelectionSort.cpp.i
 
-alarusse.s: alarusse.cpp.s
+SelectionSort.s: SelectionSort.cpp.s
 
-.PHONY : alarusse.s
-
-# target to generate assembly for a file
-alarusse.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/alarusse.cpp.s
-.PHONY : alarusse.cpp.s
-
-euclid.obj: euclid.cpp.obj
-
-.PHONY : euclid.obj
-
-# target to build an object file
-euclid.cpp.obj:
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/euclid.cpp.obj
-.PHONY : euclid.cpp.obj
-
-euclid.i: euclid.cpp.i
-
-.PHONY : euclid.i
-
-# target to preprocess a source file
-euclid.cpp.i:
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/euclid.cpp.i
-.PHONY : euclid.cpp.i
-
-euclid.s: euclid.cpp.s
-
-.PHONY : euclid.s
+.PHONY : SelectionSort.s
 
 # target to generate assembly for a file
-euclid.cpp.s:
-	$(MAKE) -f CMakeFiles\euclid.dir\build.make CMakeFiles/euclid.dir/euclid.cpp.s
-.PHONY : euclid.cpp.s
+SelectionSort.cpp.s:
+	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/SelectionSort.cpp.s
+.PHONY : SelectionSort.cpp.s
 
 # Help Target
 help:
@@ -278,24 +198,16 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... SelectionSort
+	@echo ... BubbleSort
 	@echo ... edit_cache
-	@echo ... main
-	@echo ... PrimeNumber
 	@echo ... rebuild_cache
-	@echo ... euclid
-	@echo ... Eratosthenes
-	@echo ... Eratosthenes.obj
-	@echo ... Eratosthenes.i
-	@echo ... Eratosthenes.s
-	@echo ... PrimeNumber.obj
-	@echo ... PrimeNumber.i
-	@echo ... PrimeNumber.s
-	@echo ... alarusse.obj
-	@echo ... alarusse.i
-	@echo ... alarusse.s
-	@echo ... euclid.obj
-	@echo ... euclid.i
-	@echo ... euclid.s
+	@echo ... BubbleSort.obj
+	@echo ... BubbleSort.i
+	@echo ... BubbleSort.s
+	@echo ... SelectionSort.obj
+	@echo ... SelectionSort.i
+	@echo ... SelectionSort.s
 .PHONY : help
 
 
