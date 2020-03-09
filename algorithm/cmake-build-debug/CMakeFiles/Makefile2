@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug
 CMakeFiles/SelectionSort.dir/all:
 	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/depend
 	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target SelectionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10 "Built target SelectionSort"
 .PHONY : CMakeFiles/SelectionSort.dir/all
 
 # Include target in all.
@@ -80,7 +80,7 @@ all: CMakeFiles/SelectionSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SelectionSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SelectionSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/SelectionSort.dir/rule
@@ -134,6 +134,80 @@ CMakeFiles/BubbleSort.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/BubbleSort.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/InsertionSort.dir
+
+# All Build rule for target.
+CMakeFiles/InsertionSort.dir/all:
+	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/depend
+	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target InsertionSort"
+.PHONY : CMakeFiles/InsertionSort.dir/all
+
+# Include target in all.
+all: CMakeFiles/InsertionSort.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/InsertionSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/InsertionSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/InsertionSort.dir/rule
+
+# Convenience name for target.
+InsertionSort: CMakeFiles/InsertionSort.dir/rule
+
+.PHONY : InsertionSort
+
+# clean rule for target.
+CMakeFiles/InsertionSort.dir/clean:
+	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/clean
+.PHONY : CMakeFiles/InsertionSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/InsertionSort.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/QuickSort.dir
+
+# All Build rule for target.
+CMakeFiles/QuickSort.dir/all:
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/depend
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target QuickSort"
+.PHONY : CMakeFiles/QuickSort.dir/all
+
+# Include target in all.
+all: CMakeFiles/QuickSort.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/QuickSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/QuickSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/QuickSort.dir/rule
+
+# Convenience name for target.
+QuickSort: CMakeFiles/QuickSort.dir/rule
+
+.PHONY : QuickSort
+
+# clean rule for target.
+CMakeFiles/QuickSort.dir/clean:
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/clean
+.PHONY : CMakeFiles/QuickSort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/QuickSort.dir/clean
 
 .PHONY : clean
 

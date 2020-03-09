@@ -53,4 +53,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SelectionSort.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"
+  "CMakeFiles/InsertionSort.dir/DependInfo.cmake"
+  "CMakeFiles/QuickSort.dir/DependInfo.cmake"
   )
