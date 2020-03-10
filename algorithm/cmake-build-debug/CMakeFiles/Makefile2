@@ -64,39 +64,39 @@ CMAKE_SOURCE_DIR = C:\Users\tkdwl\Desktop\Github\TIL\algorithm
 CMAKE_BINARY_DIR = C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/SelectionSort.dir
+# Target rules for target CMakeFiles/_2751.dir
 
 # All Build rule for target.
-CMakeFiles/SelectionSort.dir/all:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/depend
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10 "Built target SelectionSort"
-.PHONY : CMakeFiles/SelectionSort.dir/all
+CMakeFiles/_2751.dir/all:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/depend
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target _2751"
+.PHONY : CMakeFiles/_2751.dir/all
 
 # Include target in all.
-all: CMakeFiles/SelectionSort.dir/all
+all: CMakeFiles/_2751.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SelectionSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 4
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SelectionSort.dir/all
+CMakeFiles/_2751.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/_2751.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/SelectionSort.dir/rule
+.PHONY : CMakeFiles/_2751.dir/rule
 
 # Convenience name for target.
-SelectionSort: CMakeFiles/SelectionSort.dir/rule
+_2751: CMakeFiles/_2751.dir/rule
 
-.PHONY : SelectionSort
-
-# clean rule for target.
-CMakeFiles/SelectionSort.dir/clean:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/clean
-.PHONY : CMakeFiles/SelectionSort.dir/clean
+.PHONY : _2751
 
 # clean rule for target.
-clean: CMakeFiles/SelectionSort.dir/clean
+CMakeFiles/_2751.dir/clean:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/clean
+.PHONY : CMakeFiles/_2751.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_2751.dir/clean
 
 .PHONY : clean
 
@@ -138,50 +138,13 @@ clean: CMakeFiles/BubbleSort.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/InsertionSort.dir
-
-# All Build rule for target.
-CMakeFiles/InsertionSort.dir/all:
-	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/depend
-	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target InsertionSort"
-.PHONY : CMakeFiles/InsertionSort.dir/all
-
-# Include target in all.
-all: CMakeFiles/InsertionSort.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/InsertionSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/InsertionSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/InsertionSort.dir/rule
-
-# Convenience name for target.
-InsertionSort: CMakeFiles/InsertionSort.dir/rule
-
-.PHONY : InsertionSort
-
-# clean rule for target.
-CMakeFiles/InsertionSort.dir/clean:
-	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/clean
-.PHONY : CMakeFiles/InsertionSort.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/InsertionSort.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/QuickSort.dir
 
 # All Build rule for target.
 CMakeFiles/QuickSort.dir/all:
 	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/depend
 	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target QuickSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tkdwl\Desktop\Github\TIL\algorithm\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target QuickSort"
 .PHONY : CMakeFiles/QuickSort.dir/all
 
 # Include target in all.

@@ -11,16 +11,18 @@ void quickSort(int *data, int start, int end) {
         return;
     }
     int key = start;
-    int i = start + 1, j = end, temp;
+    int i = start + 1;
+    int j = end;
+    int temp;
 
-    while (i <= j) {
-        while (i <= end && data[i] <= data[key]) {
+    while (i <= j) {//엇갈릴때까지 반복
+        while (i <= end && data[i] >= data[key]) {
             i++;
         }
-        while (j > start && data[j] >= data[key]) {
+        while (j > start && data[j] <= data[key]) {
             j--;
         }
-        if (i > j) {
+        if (i > j) {// 엇갈림
             temp = data[key];
             data[key] = data[j];
             data[j] = temp;
@@ -36,7 +38,8 @@ void quickSort(int *data, int start, int end) {
 
 int main(void) {
     quickSort(data, 0, number - 1);
-    for (int i = 0 ; i <number ; i ++){
+    for (int i = 0; i < number; i++) {
         printf("%d ", data[i]);
     }
+    return 0;
 }

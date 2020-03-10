@@ -17,8 +17,8 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SelectionSort">
-				<Option output="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/SelectionSort.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="_2751">
+				<Option output="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/_2751.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -32,14 +32,14 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectionSort"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 _2751"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SelectionSort/fast">
-				<Option output="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/SelectionSort.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="_2751/fast">
+				<Option output="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/_2751.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,7 +53,7 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectionSort/fast"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 _2751/fast"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -96,48 +96,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 BubbleSort/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="InsertionSort">
-				<Option output="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/InsertionSort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 InsertionSort"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="InsertionSort/fast">
-				<Option output="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/InsertionSort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 InsertionSort/fast"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -207,18 +165,13 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/BubbleSort.cpp">
-			<Option target="SelectionSort"/>
 			<Option target="BubbleSort"/>
-		</Unit>
-		<Unit filename="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/InsertionSort.cpp">
-			<Option target="SelectionSort"/>
-			<Option target="InsertionSort"/>
 		</Unit>
 		<Unit filename="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/QuickSort.cpp">
 			<Option target="QuickSort"/>
 		</Unit>
-		<Unit filename="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/SelectionSort.cpp">
-			<Option target="SelectionSort"/>
+		<Unit filename="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/_2751.cpp">
+			<Option target="_2751"/>
 		</Unit>
 		<Unit filename="C:/Users/tkdwl/Desktop/Github/TIL/algorithm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

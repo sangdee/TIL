@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SelectionSort
+# Target rules for targets named _2751
 
 # Build rule for target.
-SelectionSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 SelectionSort
-.PHONY : SelectionSort
+_2751: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 _2751
+.PHONY : _2751
 
 # fast build rule for target.
-SelectionSort/fast:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/build
-.PHONY : SelectionSort/fast
+_2751/fast:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/build
+.PHONY : _2751/fast
 
 #=============================================================================
 # Target rules for targets named BubbleSort
@@ -134,19 +134,6 @@ BubbleSort: cmake_check_build_system
 BubbleSort/fast:
 	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
 .PHONY : BubbleSort/fast
-
-#=============================================================================
-# Target rules for targets named InsertionSort
-
-# Build rule for target.
-InsertionSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 InsertionSort
-.PHONY : InsertionSort
-
-# fast build rule for target.
-InsertionSort/fast:
-	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/build
-.PHONY : InsertionSort/fast
 
 #=============================================================================
 # Target rules for targets named QuickSort
@@ -167,7 +154,6 @@ BubbleSort.obj: BubbleSort.cpp.obj
 
 # target to build an object file
 BubbleSort.cpp.obj:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/BubbleSort.cpp.obj
 	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/BubbleSort.cpp.obj
 .PHONY : BubbleSort.cpp.obj
 
@@ -177,7 +163,6 @@ BubbleSort.i: BubbleSort.cpp.i
 
 # target to preprocess a source file
 BubbleSort.cpp.i:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/BubbleSort.cpp.i
 	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/BubbleSort.cpp.i
 .PHONY : BubbleSort.cpp.i
 
@@ -187,39 +172,8 @@ BubbleSort.s: BubbleSort.cpp.s
 
 # target to generate assembly for a file
 BubbleSort.cpp.s:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/BubbleSort.cpp.s
 	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/BubbleSort.cpp.s
 .PHONY : BubbleSort.cpp.s
-
-InsertionSort.obj: InsertionSort.cpp.obj
-
-.PHONY : InsertionSort.obj
-
-# target to build an object file
-InsertionSort.cpp.obj:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/InsertionSort.cpp.obj
-	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/InsertionSort.cpp.obj
-.PHONY : InsertionSort.cpp.obj
-
-InsertionSort.i: InsertionSort.cpp.i
-
-.PHONY : InsertionSort.i
-
-# target to preprocess a source file
-InsertionSort.cpp.i:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/InsertionSort.cpp.i
-	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/InsertionSort.cpp.i
-.PHONY : InsertionSort.cpp.i
-
-InsertionSort.s: InsertionSort.cpp.s
-
-.PHONY : InsertionSort.s
-
-# target to generate assembly for a file
-InsertionSort.cpp.s:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/InsertionSort.cpp.s
-	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/InsertionSort.cpp.s
-.PHONY : InsertionSort.cpp.s
 
 QuickSort.obj: QuickSort.cpp.obj
 
@@ -248,32 +202,32 @@ QuickSort.cpp.s:
 	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/QuickSort.cpp.s
 .PHONY : QuickSort.cpp.s
 
-SelectionSort.obj: SelectionSort.cpp.obj
+_2751.obj: _2751.cpp.obj
 
-.PHONY : SelectionSort.obj
+.PHONY : _2751.obj
 
 # target to build an object file
-SelectionSort.cpp.obj:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/SelectionSort.cpp.obj
-.PHONY : SelectionSort.cpp.obj
+_2751.cpp.obj:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/_2751.cpp.obj
+.PHONY : _2751.cpp.obj
 
-SelectionSort.i: SelectionSort.cpp.i
+_2751.i: _2751.cpp.i
 
-.PHONY : SelectionSort.i
+.PHONY : _2751.i
 
 # target to preprocess a source file
-SelectionSort.cpp.i:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/SelectionSort.cpp.i
-.PHONY : SelectionSort.cpp.i
+_2751.cpp.i:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/_2751.cpp.i
+.PHONY : _2751.cpp.i
 
-SelectionSort.s: SelectionSort.cpp.s
+_2751.s: _2751.cpp.s
 
-.PHONY : SelectionSort.s
+.PHONY : _2751.s
 
 # target to generate assembly for a file
-SelectionSort.cpp.s:
-	$(MAKE) -f CMakeFiles\SelectionSort.dir\build.make CMakeFiles/SelectionSort.dir/SelectionSort.cpp.s
-.PHONY : SelectionSort.cpp.s
+_2751.cpp.s:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/_2751.cpp.s
+.PHONY : _2751.cpp.s
 
 # Help Target
 help:
@@ -281,24 +235,20 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... SelectionSort
+	@echo ... _2751
 	@echo ... BubbleSort
-	@echo ... InsertionSort
 	@echo ... edit_cache
 	@echo ... QuickSort
 	@echo ... rebuild_cache
 	@echo ... BubbleSort.obj
 	@echo ... BubbleSort.i
 	@echo ... BubbleSort.s
-	@echo ... InsertionSort.obj
-	@echo ... InsertionSort.i
-	@echo ... InsertionSort.s
 	@echo ... QuickSort.obj
 	@echo ... QuickSort.i
 	@echo ... QuickSort.s
-	@echo ... SelectionSort.obj
-	@echo ... SelectionSort.i
-	@echo ... SelectionSort.s
+	@echo ... _2751.obj
+	@echo ... _2751.i
+	@echo ... _2751.s
 .PHONY : help
 
 

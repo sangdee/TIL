@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tkdwl/Desktop/Github/TIL/algorithm/_2750.cpp
+stdio.h
+-
+
+C:/Users/tkdwl/Desktop/Github/TIL/algorithm/_2752.cpp
+stdio.h
+-
+

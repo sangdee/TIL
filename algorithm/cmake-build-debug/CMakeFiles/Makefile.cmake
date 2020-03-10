@@ -51,8 +51,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/SelectionSort.dir/DependInfo.cmake"
+  "CMakeFiles/_2751.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"
-  "CMakeFiles/InsertionSort.dir/DependInfo.cmake"
   "CMakeFiles/QuickSort.dir/DependInfo.cmake"
   )
