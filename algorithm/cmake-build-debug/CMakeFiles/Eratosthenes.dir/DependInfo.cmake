@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/Eratosthenes.cpp" "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/Eratosthenes.dir/Eratosthenes.cpp.obj"
+  "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/Merge.cpp" "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/Eratosthenes.dir/Merge.cpp.obj"
+  "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/fsda.cpp" "C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/Eratosthenes.dir/fsda.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

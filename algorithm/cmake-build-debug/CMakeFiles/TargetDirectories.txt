@@ -1,5 +1,5 @@
+C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/InsertionSort.dir
 C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/_2751.dir
-C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/BubbleSort.dir
+C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/Merge.dir
 C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/QuickSort.dir
 C:/Users/tkdwl/Desktop/Github/TIL/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

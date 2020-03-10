@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named InsertionSort
+
+# Build rule for target.
+InsertionSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 InsertionSort
+.PHONY : InsertionSort
+
+# fast build rule for target.
+InsertionSort/fast:
+	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/build
+.PHONY : InsertionSort/fast
+
+#=============================================================================
 # Target rules for targets named _2751
 
 # Build rule for target.
@@ -123,84 +136,71 @@ _2751/fast:
 .PHONY : _2751/fast
 
 #=============================================================================
-# Target rules for targets named BubbleSort
+# Target rules for targets named Merge
 
 # Build rule for target.
-BubbleSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 BubbleSort
-.PHONY : BubbleSort
+Merge: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Merge
+.PHONY : Merge
 
 # fast build rule for target.
-BubbleSort/fast:
-	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
-.PHONY : BubbleSort/fast
+Merge/fast:
+	$(MAKE) -f CMakeFiles\Merge.dir\build.make CMakeFiles/Merge.dir/build
+.PHONY : Merge/fast
 
-#=============================================================================
-# Target rules for targets named QuickSort
+InsertionSort.obj: InsertionSort.cpp.obj
 
-# Build rule for target.
-QuickSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 QuickSort
-.PHONY : QuickSort
-
-# fast build rule for target.
-QuickSort/fast:
-	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/build
-.PHONY : QuickSort/fast
-
-BubbleSort.obj: BubbleSort.cpp.obj
-
-.PHONY : BubbleSort.obj
+.PHONY : InsertionSort.obj
 
 # target to build an object file
-BubbleSort.cpp.obj:
-	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/BubbleSort.cpp.obj
-.PHONY : BubbleSort.cpp.obj
+InsertionSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/InsertionSort.cpp.obj
+.PHONY : InsertionSort.cpp.obj
 
-BubbleSort.i: BubbleSort.cpp.i
+InsertionSort.i: InsertionSort.cpp.i
 
-.PHONY : BubbleSort.i
+.PHONY : InsertionSort.i
 
 # target to preprocess a source file
-BubbleSort.cpp.i:
-	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/BubbleSort.cpp.i
-.PHONY : BubbleSort.cpp.i
+InsertionSort.cpp.i:
+	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/InsertionSort.cpp.i
+.PHONY : InsertionSort.cpp.i
 
-BubbleSort.s: BubbleSort.cpp.s
+InsertionSort.s: InsertionSort.cpp.s
 
-.PHONY : BubbleSort.s
+.PHONY : InsertionSort.s
 
 # target to generate assembly for a file
-BubbleSort.cpp.s:
-	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/BubbleSort.cpp.s
-.PHONY : BubbleSort.cpp.s
+InsertionSort.cpp.s:
+	$(MAKE) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/InsertionSort.cpp.s
+.PHONY : InsertionSort.cpp.s
 
-QuickSort.obj: QuickSort.cpp.obj
+Merge.obj: Merge.cpp.obj
 
-.PHONY : QuickSort.obj
+.PHONY : Merge.obj
 
 # target to build an object file
-QuickSort.cpp.obj:
-	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/QuickSort.cpp.obj
-.PHONY : QuickSort.cpp.obj
+Merge.cpp.obj:
+	$(MAKE) -f CMakeFiles\Merge.dir\build.make CMakeFiles/Merge.dir/Merge.cpp.obj
+.PHONY : Merge.cpp.obj
 
-QuickSort.i: QuickSort.cpp.i
+Merge.i: Merge.cpp.i
 
-.PHONY : QuickSort.i
+.PHONY : Merge.i
 
 # target to preprocess a source file
-QuickSort.cpp.i:
-	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/QuickSort.cpp.i
-.PHONY : QuickSort.cpp.i
+Merge.cpp.i:
+	$(MAKE) -f CMakeFiles\Merge.dir\build.make CMakeFiles/Merge.dir/Merge.cpp.i
+.PHONY : Merge.cpp.i
 
-QuickSort.s: QuickSort.cpp.s
+Merge.s: Merge.cpp.s
 
-.PHONY : QuickSort.s
+.PHONY : Merge.s
 
 # target to generate assembly for a file
-QuickSort.cpp.s:
-	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/QuickSort.cpp.s
-.PHONY : QuickSort.cpp.s
+Merge.cpp.s:
+	$(MAKE) -f CMakeFiles\Merge.dir\build.make CMakeFiles/Merge.dir/Merge.cpp.s
+.PHONY : Merge.cpp.s
 
 _2751.obj: _2751.cpp.obj
 
@@ -235,17 +235,17 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... InsertionSort
 	@echo ... _2751
-	@echo ... BubbleSort
+	@echo ... Merge
 	@echo ... edit_cache
-	@echo ... QuickSort
 	@echo ... rebuild_cache
-	@echo ... BubbleSort.obj
-	@echo ... BubbleSort.i
-	@echo ... BubbleSort.s
-	@echo ... QuickSort.obj
-	@echo ... QuickSort.i
-	@echo ... QuickSort.s
+	@echo ... InsertionSort.obj
+	@echo ... InsertionSort.i
+	@echo ... InsertionSort.s
+	@echo ... Merge.obj
+	@echo ... Merge.i
+	@echo ... Merge.s
 	@echo ... _2751.obj
 	@echo ... _2751.i
 	@echo ... _2751.s
