@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(InsertionSort InsertionSort.cpp)
 add_executable(Merge Merge.cpp)
-add_executable(_2751 _2751.cpp STLsort2.cpp)
+add_executable(_2751 _2751.cpp STLsort2.cpp HeapSort.cpp)
 add_executable(STLsort STLsort.cpp)
 add_executable(STLsort2 STLsort2.cpp)
+add_executable(HeapSort HeapSort.cpp)

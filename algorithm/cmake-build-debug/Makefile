@@ -123,6 +123,19 @@ InsertionSort/fast:
 .PHONY : InsertionSort/fast
 
 #=============================================================================
+# Target rules for targets named HeapSort
+
+# Build rule for target.
+HeapSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 HeapSort
+.PHONY : HeapSort
+
+# fast build rule for target.
+HeapSort/fast:
+	$(MAKE) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/build
+.PHONY : HeapSort/fast
+
+#=============================================================================
 # Target rules for targets named _2751
 
 # Build rule for target.
@@ -173,6 +186,36 @@ STLsort2: cmake_check_build_system
 STLsort2/fast:
 	$(MAKE) -f CMakeFiles\STLsort2.dir\build.make CMakeFiles/STLsort2.dir/build
 .PHONY : STLsort2/fast
+
+HeapSort.obj: HeapSort.cpp.obj
+
+.PHONY : HeapSort.obj
+
+# target to build an object file
+HeapSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/HeapSort.cpp.obj
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/HeapSort.cpp.obj
+.PHONY : HeapSort.cpp.obj
+
+HeapSort.i: HeapSort.cpp.i
+
+.PHONY : HeapSort.i
+
+# target to preprocess a source file
+HeapSort.cpp.i:
+	$(MAKE) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/HeapSort.cpp.i
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/HeapSort.cpp.i
+.PHONY : HeapSort.cpp.i
+
+HeapSort.s: HeapSort.cpp.s
+
+.PHONY : HeapSort.s
+
+# target to generate assembly for a file
+HeapSort.cpp.s:
+	$(MAKE) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/HeapSort.cpp.s
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/HeapSort.cpp.s
+.PHONY : HeapSort.cpp.s
 
 InsertionSort.obj: InsertionSort.cpp.obj
 
@@ -319,12 +362,16 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... InsertionSort
+	@echo ... HeapSort
 	@echo ... _2751
 	@echo ... Merge
 	@echo ... STLsort
 	@echo ... edit_cache
 	@echo ... STLsort2
 	@echo ... rebuild_cache
+	@echo ... HeapSort.obj
+	@echo ... HeapSort.i
+	@echo ... HeapSort.s
 	@echo ... InsertionSort.obj
 	@echo ... InsertionSort.i
 	@echo ... InsertionSort.s
