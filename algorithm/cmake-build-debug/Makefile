@@ -148,6 +148,32 @@ Merge/fast:
 	$(MAKE) -f CMakeFiles\Merge.dir\build.make CMakeFiles/Merge.dir/build
 .PHONY : Merge/fast
 
+#=============================================================================
+# Target rules for targets named STLsort
+
+# Build rule for target.
+STLsort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 STLsort
+.PHONY : STLsort
+
+# fast build rule for target.
+STLsort/fast:
+	$(MAKE) -f CMakeFiles\STLsort.dir\build.make CMakeFiles/STLsort.dir/build
+.PHONY : STLsort/fast
+
+#=============================================================================
+# Target rules for targets named STLsort2
+
+# Build rule for target.
+STLsort2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 STLsort2
+.PHONY : STLsort2
+
+# fast build rule for target.
+STLsort2/fast:
+	$(MAKE) -f CMakeFiles\STLsort2.dir\build.make CMakeFiles/STLsort2.dir/build
+.PHONY : STLsort2/fast
+
 InsertionSort.obj: InsertionSort.cpp.obj
 
 .PHONY : InsertionSort.obj
@@ -202,6 +228,63 @@ Merge.cpp.s:
 	$(MAKE) -f CMakeFiles\Merge.dir\build.make CMakeFiles/Merge.dir/Merge.cpp.s
 .PHONY : Merge.cpp.s
 
+STLsort.obj: STLsort.cpp.obj
+
+.PHONY : STLsort.obj
+
+# target to build an object file
+STLsort.cpp.obj:
+	$(MAKE) -f CMakeFiles\STLsort.dir\build.make CMakeFiles/STLsort.dir/STLsort.cpp.obj
+.PHONY : STLsort.cpp.obj
+
+STLsort.i: STLsort.cpp.i
+
+.PHONY : STLsort.i
+
+# target to preprocess a source file
+STLsort.cpp.i:
+	$(MAKE) -f CMakeFiles\STLsort.dir\build.make CMakeFiles/STLsort.dir/STLsort.cpp.i
+.PHONY : STLsort.cpp.i
+
+STLsort.s: STLsort.cpp.s
+
+.PHONY : STLsort.s
+
+# target to generate assembly for a file
+STLsort.cpp.s:
+	$(MAKE) -f CMakeFiles\STLsort.dir\build.make CMakeFiles/STLsort.dir/STLsort.cpp.s
+.PHONY : STLsort.cpp.s
+
+STLsort2.obj: STLsort2.cpp.obj
+
+.PHONY : STLsort2.obj
+
+# target to build an object file
+STLsort2.cpp.obj:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/STLsort2.cpp.obj
+	$(MAKE) -f CMakeFiles\STLsort2.dir\build.make CMakeFiles/STLsort2.dir/STLsort2.cpp.obj
+.PHONY : STLsort2.cpp.obj
+
+STLsort2.i: STLsort2.cpp.i
+
+.PHONY : STLsort2.i
+
+# target to preprocess a source file
+STLsort2.cpp.i:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/STLsort2.cpp.i
+	$(MAKE) -f CMakeFiles\STLsort2.dir\build.make CMakeFiles/STLsort2.dir/STLsort2.cpp.i
+.PHONY : STLsort2.cpp.i
+
+STLsort2.s: STLsort2.cpp.s
+
+.PHONY : STLsort2.s
+
+# target to generate assembly for a file
+STLsort2.cpp.s:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/STLsort2.cpp.s
+	$(MAKE) -f CMakeFiles\STLsort2.dir\build.make CMakeFiles/STLsort2.dir/STLsort2.cpp.s
+.PHONY : STLsort2.cpp.s
+
 _2751.obj: _2751.cpp.obj
 
 .PHONY : _2751.obj
@@ -238,7 +321,9 @@ help:
 	@echo ... InsertionSort
 	@echo ... _2751
 	@echo ... Merge
+	@echo ... STLsort
 	@echo ... edit_cache
+	@echo ... STLsort2
 	@echo ... rebuild_cache
 	@echo ... InsertionSort.obj
 	@echo ... InsertionSort.i
@@ -246,6 +331,12 @@ help:
 	@echo ... Merge.obj
 	@echo ... Merge.i
 	@echo ... Merge.s
+	@echo ... STLsort.obj
+	@echo ... STLsort.i
+	@echo ... STLsort.s
+	@echo ... STLsort2.obj
+	@echo ... STLsort2.i
+	@echo ... STLsort2.s
 	@echo ... _2751.obj
 	@echo ... _2751.i
 	@echo ... _2751.s

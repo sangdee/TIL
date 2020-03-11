@@ -54,4 +54,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/InsertionSort.dir/DependInfo.cmake"
   "CMakeFiles/_2751.dir/DependInfo.cmake"
   "CMakeFiles/Merge.dir/DependInfo.cmake"
+  "CMakeFiles/STLsort.dir/DependInfo.cmake"
+  "CMakeFiles/STLsort2.dir/DependInfo.cmake"
   )

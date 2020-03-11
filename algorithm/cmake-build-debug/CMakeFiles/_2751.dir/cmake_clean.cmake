@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/_2751.dir/_2751.cpp.obj"
+  "CMakeFiles/_2751.dir/STLsort2.cpp.obj"
   "_2751.pdb"
   "_2751.exe"
   "_2751.exe.manifest"
