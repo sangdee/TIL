@@ -175,6 +175,19 @@ STLsort/fast:
 .PHONY : STLsort/fast
 
 #=============================================================================
+# Target rules for targets named CountingSort
+
+# Build rule for target.
+CountingSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 CountingSort
+.PHONY : CountingSort
+
+# fast build rule for target.
+CountingSort/fast:
+	$(MAKE) -f CMakeFiles\CountingSort.dir\build.make CMakeFiles/CountingSort.dir/build
+.PHONY : CountingSort/fast
+
+#=============================================================================
 # Target rules for targets named STLsort2
 
 # Build rule for target.
@@ -186,6 +199,36 @@ STLsort2: cmake_check_build_system
 STLsort2/fast:
 	$(MAKE) -f CMakeFiles\STLsort2.dir\build.make CMakeFiles/STLsort2.dir/build
 .PHONY : STLsort2/fast
+
+CountingSort.obj: CountingSort.cpp.obj
+
+.PHONY : CountingSort.obj
+
+# target to build an object file
+CountingSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/CountingSort.cpp.obj
+	$(MAKE) -f CMakeFiles\CountingSort.dir\build.make CMakeFiles/CountingSort.dir/CountingSort.cpp.obj
+.PHONY : CountingSort.cpp.obj
+
+CountingSort.i: CountingSort.cpp.i
+
+.PHONY : CountingSort.i
+
+# target to preprocess a source file
+CountingSort.cpp.i:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/CountingSort.cpp.i
+	$(MAKE) -f CMakeFiles\CountingSort.dir\build.make CMakeFiles/CountingSort.dir/CountingSort.cpp.i
+.PHONY : CountingSort.cpp.i
+
+CountingSort.s: CountingSort.cpp.s
+
+.PHONY : CountingSort.s
+
+# target to generate assembly for a file
+CountingSort.cpp.s:
+	$(MAKE) -f CMakeFiles\_2751.dir\build.make CMakeFiles/_2751.dir/CountingSort.cpp.s
+	$(MAKE) -f CMakeFiles\CountingSort.dir\build.make CMakeFiles/CountingSort.dir/CountingSort.cpp.s
+.PHONY : CountingSort.cpp.s
 
 HeapSort.obj: HeapSort.cpp.obj
 
@@ -367,8 +410,12 @@ help:
 	@echo ... Merge
 	@echo ... STLsort
 	@echo ... edit_cache
+	@echo ... CountingSort
 	@echo ... STLsort2
 	@echo ... rebuild_cache
+	@echo ... CountingSort.obj
+	@echo ... CountingSort.i
+	@echo ... CountingSort.s
 	@echo ... HeapSort.obj
 	@echo ... HeapSort.i
 	@echo ... HeapSort.s

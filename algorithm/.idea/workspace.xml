@@ -6,7 +6,9 @@
       <config projectName="algorithm1" targetName="Merge" />
       <config projectName="algorithm1" targetName="InsertionSort" />
       <config projectName="algorithm1" targetName="_2751" />
+      <config projectName="algorithm1" targetName="CountingSort" />
       <config projectName="algorithm1" targetName="STLsort2" />
+      <config projectName="algorithm1" targetName="HeapSort" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,10 +18,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0af2bfe-4aee-4731-9feb-d6f69792bc0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HeapSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountingSort.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HeapSort.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HeapSort.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InsertionSort.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InsertionSort.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Merge.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Merge.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STLsort.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STLsort.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STLsort2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STLsort2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_2751.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_2751.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_2751.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_2751.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_2751.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/_2751.dir/cmake_clean.cmake" afterDir="false" />
@@ -74,49 +83,40 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="19" />
+          <entry key="cpp" value="20" />
           <entry key="h" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="20" />
+          <entry key="ObjectiveC" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="5439" />
+          <entry key="cpp" value="5865" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="5439" />
+          <entry key="ObjectiveC" value="5865" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QuickSort.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_2751.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
+            <state relative-caret-position="1250">
               <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
             </state>
           </provider>
@@ -138,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/STLsort.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
+            <state relative-caret-position="1000">
               <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
@@ -159,11 +159,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HeapSort.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="70">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CountingSort.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -231,6 +240,7 @@
         <option value="$PROJECT_DIR$/STLsort.cpp" />
         <option value="$PROJECT_DIR$/STLsort2.cpp" />
         <option value="$PROJECT_DIR$/HeapSort.cpp" />
+        <option value="$PROJECT_DIR$/CountingSort.cpp" />
       </list>
     </option>
   </component>
@@ -241,10 +251,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="822" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="821" />
     <option name="width" value="1105" />
-    <option name="height" value="1038" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -314,8 +324,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.CountingSort">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountingSort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithm1" TARGET_NAME="CountingSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithm1" RUN_TARGET_NAME="CountingSort">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -353,6 +368,7 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application._2751" />
+      <item itemvalue="Application.CountingSort" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.Merge" />
@@ -379,11 +395,12 @@
       <workItem from="1583734070989" duration="22245000" />
       <workItem from="1583830757493" duration="1023000" />
       <workItem from="1583832342191" duration="9329000" />
+      <workItem from="1583991514003" duration="880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51758000" />
+    <option name="totallyTimeSpent" value="52638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,21 +412,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="658" y="0" width="884" height="830" extended-state="0" />
+    <frame x="657" y="0" width="884" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17475729" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17961165" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33936024" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33888888" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.33240613" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.33194444" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -487,9 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,20 +514,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BubbleSort.cpp">
+    <entry file="file://$PROJECT_DIR$/MergeSort.cpp" />
+    <entry file="file://$PROJECT_DIR$/fsda.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MergeSort.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsda.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="9" lean-forward="true" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="125">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -524,44 +530,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_2752.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Merge.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="14" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_2750.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_2751.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
+        <state relative-caret-position="1250">
           <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/STLsort.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
+        <state relative-caret-position="1000">
           <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
@@ -579,10 +557,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_2750.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_2752.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Merge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="14" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BubbleSort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeapSort.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="70">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CountingSort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
