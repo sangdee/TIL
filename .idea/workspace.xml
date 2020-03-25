@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe74d5eb-e9c5-4200-bd67-ea50d31ef52a" name="Default Changelist" comment="">
+    <list default="true" id="c61a254a-d687-4053-956b-c49f4beb3e82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/_1181.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/_1431.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TIL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/algorithm1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/algorithm1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/js/variable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/language/js/variable/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,43 +29,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1WQJvaeZKvEPr0Nyogt1ekFXQHw" />
+  <component name="ProjectId" id="1ZYugOE9P0wG7lJO1n7BXwx8lia" />
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/language/js/variable" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tkdwl\Desktop\Github\TIL\language\js\variable" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,12 +61,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fe74d5eb-e9c5-4200-bd67-ea50d31ef52a" name="Default Changelist" comment="" />
-      <created>1579076116201</created>
+      <changelist id="c61a254a-d687-4053-956b-c49f4beb3e82" name="Default Changelist" comment="" />
+      <created>1585028458706</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579076116201</updated>
-      <workItem from="1579076118167" duration="3060000" />
+      <updated>1585028458706</updated>
+      <workItem from="1585028462072" duration="139000" />
     </task>
     <servers />
   </component>
