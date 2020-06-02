@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c61a254a-d687-4053-956b-c49f4beb3e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/_1181.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/_1431.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TIL.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/_2751.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cmake-build-debug/algorithm1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cmake-build-debug/algorithm1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/js/variable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/language/js/variable/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="c61a254a-d687-4053-956b-c49f4beb3e82" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +57,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
