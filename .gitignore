@@ -3,3 +3,4 @@
 algorithm/algorithm.iml
 algorithm/.idea/$PRODUCT_WORKSPACE_FILE$
 *.xml
+algorithm/out/production/algorithm/META-INF/algorithm.kotlin_module

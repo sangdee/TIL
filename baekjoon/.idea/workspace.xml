@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="855b7c92-9f0c-4c82-bf06-a4efbbc27ba2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../algorithm/src/BubblSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/src/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2750.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2751.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2752.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +35,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._01003">
+  <component name="RunManager" selected="Application._2751">
     <configuration name="_01002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01002" />
       <module name="untitled2" />
@@ -69,8 +76,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_2750" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2750" />
+      <module name="untitled2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2751" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2751" />
+      <module name="untitled2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2752" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2752" />
+      <module name="untitled2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._2751" />
+        <item itemvalue="Application._2750" />
+        <item itemvalue="Application._2752" />
         <item itemvalue="Application._01003" />
         <item itemvalue="Application._01002" />
       </list>
@@ -88,6 +119,7 @@
       <updated>1578383115600</updated>
       <workItem from="1578383120440" duration="5004000" />
       <workItem from="1579063590914" duration="8333000" />
+      <workItem from="1591176918497" duration="4948000" />
     </task>
     <servers />
   </component>
@@ -99,7 +131,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
