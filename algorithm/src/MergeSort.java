@@ -1,24 +1,19 @@
-import org.omg.PortableInterceptor.INACTIVE;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.*;
-
 /**
  * @author : Sangji Lee
  * @see : https://github.com/sangji11
- * @since : 2020-06-03 오후 7:47
+ * @since : 2020-06-05 오전 11:56
  */
-public class _2751 {
-    static int[] sorted;
+public class MergeSort {
+    //최악의 경우도 O(N*logN) 보장, 일단 반으로 쪼개고 나중에 합침
+    //너비 N 높이 logN
+    int number = 8;
+    static int[] sorted = new int[8];
 
     static void merge(int[] a, int m, int middle, int n) {
-
         int i = m;
         int j = middle + 1;
         int k = m;
+
         while (i <= middle && j <= n) {
             if (a[i] <= a[j]) {
                 sorted[k] = a[i];
@@ -54,17 +49,12 @@ public class _2751 {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        int number = Integer.parseInt(bufferedReader.readLine().trim());
-        sorted = new int[number];
-        int[] a = new int[number];
-        for (int i = 0; i < number; i++) {
-            a[i] = Integer.parseInt(bufferedReader.readLine().trim());
-        }
-        mergeSort(a, 0, number - 1);
-        for (int x : a) {
-            System.out.println(x);
+
+    public static void main(String[] args) {
+        int[] arr = {4, 6, 5, 2, 1, 8, 6, 9};
+        mergeSort(arr, 0,  7 );
+        for(int i : arr){
+            System.out.println(i);
         }
     }
 }
