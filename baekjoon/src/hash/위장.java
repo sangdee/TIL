@@ -29,6 +29,6 @@ public class 위장 {
                 .collect(groupingBy(p -> p[1], mapping(p -> p[0], counting())))
                 .values()
                 .stream()
-                .collect(reducing(1L, (x, y) -> x * (y + 1))).intValue() - 1;
+                .reduce(1L, (x, y) -> x * (y + 1)).intValue() - 1;
     }
 }
