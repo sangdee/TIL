@@ -10,9 +10,8 @@ import java.util.Scanner;
 public class _1012 {
     private static int dx[] = {0, 0, 1, -1};
     private static int dy[] = {1, -1, 0, 0};
-    private static int vertex, edge;
+    private static int vertex;
     private static int bugsNum;
-    private static int[] cabbage;
     private static boolean[][] visited;
     private static int[][] map;
     private static int m;
