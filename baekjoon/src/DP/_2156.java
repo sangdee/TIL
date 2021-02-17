@@ -26,7 +26,9 @@ public class _2156 {
 
         for (int i = 3; i <= n; i++) {
 //            dp[i] = Math.max(dp[i - 2] + arr[i], dp[i - 3] + arr[i - 1] + arr[i]);
-            dp[i] = Math.max(dp[i - 1], Math.max(dp[i - 2] + arr[i], dp[i - 3] + arr[i - 1] + arr[i]));
+
+            int d = Math.max(dp[i - 2] + arr[i], dp[i - 3] + arr[i - 1] + arr[i]);
+            dp[i] = Math.max(dp[i - 1],  d);
 
         }
 //        int max = 0;
