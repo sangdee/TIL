@@ -1,9 +1,10 @@
-/venv
+### Java template
 *.class
-algorithm/algorithm.iml
-algorithm/.idea/$PRODUCT_WORKSPACE_FILE$
-baekjoon/.idea/$PRODUCT_WORKSPACE_FILE$
-*.xml
-algorithm/out/production/algorithm/META-INF/algorithm.kotlin_module
-*.kotlin_module
+# IntelliJ project files
 .idea
+.idea/*.xml
+*.iml
+out
+gen
+build
+rebel.xml
