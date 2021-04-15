@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author : Sangji Lee
  * @when : 2021-04-15
- * @github : http://github.com/sangji11
+ * @github : http://github.com/sangdee
  */
 public class 크레인인형뽑기게임 {
     public static int solution(int[][] board, int[] moves) {
