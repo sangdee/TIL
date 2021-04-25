@@ -29,7 +29,10 @@ public class 문자열재정렬 {
         for (char c : list) {
             result.append(c);
         }
-        result.append(number);
+        if (number != 0) {
+            result.append(number);
+        }
+
         System.out.println(result);
     }
 }
