@@ -1,4 +1,4 @@
-package DP;
+package dp;
 
 import java.util.ArrayList;
 import java.util.Collections;
