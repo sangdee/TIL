@@ -10,6 +10,7 @@ import java.util.Scanner;
  * @since : 2021-02-13
  */
 public class 병사배치하기 {
+    //LIS
     static int n;
     static ArrayList<Integer> v = new ArrayList<>();
     static int[] dp = new int[2000];
