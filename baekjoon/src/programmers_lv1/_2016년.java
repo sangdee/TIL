@@ -1,8 +1,4 @@
-package programmers;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+package programmers_lv1;
 
 /**
  * @author : Sangji Lee
