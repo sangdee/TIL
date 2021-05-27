@@ -1,6 +1,4 @@
-package programmers;
-
-import java.util.Locale;
+package programmers_lv1;
 
 /**
  * @author : Sangji Lee
