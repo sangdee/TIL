@@ -22,15 +22,17 @@ public class 완주하지못한선수 {
                 break;
             }
         }
-
+        if (name == "") {
+            name = participant[participant.length - 1];
+        }
         return name;
     }
 
     public static void main(String[] args) {
-        String[] arr1 = {"mislav", "stanko", "mislav", "ana"};
-        String[] arr2 = {"stanko", "ana", "mislav"};
+        String[] arr1 = {"leo", "kiki", "eden"};
+        String[] arr2 = {"eden", "kiki"};
 
-        solution(arr1, arr2);
+        System.out.println(solution(arr1, arr2));
     }
 
 
