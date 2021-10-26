@@ -1,6 +1,7 @@
 ### 자료구조
 
-- Array vs Linked List
+- Array 
+- Linked List
 - Binary Tree (이진 트리)
     - Perfect Binary Tree (포화 이진 트리)
     - Complete Binary Tree (완전 이진 트리)

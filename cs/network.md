@@ -4,9 +4,7 @@
 - TCP
 - UDP
 - DNS
-
 - URI
-
 - HTTP 특징
 - 클라이언트 서버 구조
 - Stateless
