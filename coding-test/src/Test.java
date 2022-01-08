@@ -5,7 +5,7 @@ import java.util.Arrays;
  * @see : https://github.com/sangdee
  * @since : 2021-02-19
  */
-public class test {
+public class Test {
 
     static int[] leftRotatebyOne(int arr[], int n) {
         int temp = arr[0], i;
