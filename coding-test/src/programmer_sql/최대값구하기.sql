@@ -1,0 +1,1 @@
+select * from ANIMAL_INS as a order by a.ANIMAL_ID asc;
