@@ -1,4 +1,4 @@
-package bruteforce;
+package baekjoon.bruteforce;
 
 import java.util.ArrayList;
 import java.util.List;
