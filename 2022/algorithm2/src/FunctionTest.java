@@ -1,3 +1,4 @@
+import static java.util.function.Function.*;
 import static java.util.stream.Collectors.*;
 
 import java.util.List;
@@ -22,7 +23,8 @@ public class FunctionTest {
             = i1 -> i2 -> i3 -> i1 + i2 + i3;
 
         Function<Integer, Function<Integer, Integer>> plus10 = f3.apply(10);
-
+        System.out.println("plus10 = " + plus10.apply(0).apply(0));
+        System.out.println(plus10);
         System.out.println(plus10.apply(1).apply(2));
 
         Function<Integer, Function<Integer, Integer>> plus15 =
@@ -33,7 +35,7 @@ public class FunctionTest {
         int value = 30;
         Function<Function<Integer, Integer>, String> plus20 =
             i -> String.valueOf(i.apply(20));
-        System.out.println(plus20.apply(Function.identity()));
+        System.out.println(plus20.apply(identity()));
 
         List<Integer> collect = Stream.of(1, 2, 3)
             .collect(toList());
