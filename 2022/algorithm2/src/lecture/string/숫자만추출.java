@@ -18,13 +18,15 @@ public class 숫자만추출 {
                     result += c;
             }
         }
-        int start = 0;
-        for (int i = 0; i < result.length(); i++) {
-            if (result.charAt(i) != '0') {
-                start = i;
-                break;
-            }
-        }
-        System.out.println(result.substring(start));
+        System.out.println(Integer.parseInt(result));
+
+//        int start = 0;
+//        for (int i = 0; i < result.length(); i++) {
+//            if (result.charAt(i) != '0') {
+//                start = i;
+//                break;
+//            }
+//        }
+//        System.out.println(result.substring(start));
     }
 }
