@@ -38,9 +38,8 @@ args.data = [
 ]
 ```
 
-entryMap 안에 키 값의 수와 명칭이 동적으로 변할 수 있기 때문에 javascript딴에서  
-맵을 한 뎁스 더 풀어주느라 애를 먹었다.  
-풀어준 데이터와 컬럼 명을 데이터 테이블에 내려서 사용하면 동적으로 사용할 수 있다.
+- entryMap 안에 키 값의 수와 명칭이 동적으로 변할 수 있기 때문에 javascript딴에서 맵을 한 뎁스 더 풀어주느라 애를 먹었다.  
+- 풀어준 데이터와 컬럼 명을 데이터 테이블에 내려서 사용하면 동적으로 사용할 수 있다.
 
 ```javascript
 loadBuyingSurveyTable: (fStartDate, fEndDate) => {
@@ -82,7 +81,9 @@ loadBuyingSurveyTable: (fStartDate, fEndDate) => {
   })
 }
 ```
+
 - datatable
+
 ```javascript
  $("#buyingEntryTable").DataTable({
   data: entryData,
