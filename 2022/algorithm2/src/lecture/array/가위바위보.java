@@ -14,18 +14,12 @@ public class 가위바위보 {
         if (a.equals(b)) {
             return "D";
         }
-        if (a == 1) {
+       else if (a == 1) {
             if (b == 2) {
                 return "B";
             }
-            if (b == 3) {
-                return "A";
-            }
         }
         else if (a == 2) {
-            if (b == 1) {
-                return "A";
-            }
             if (b == 3) {
                 return "B";
             }
@@ -34,11 +28,8 @@ public class 가위바위보 {
             if (b == 1) {
                 return "B";
             }
-            if (b == 2) {
-                return "A";
-            }
         }
-        return "";
+        return "A";
     };
 
     public static void main(String[] args) {
