@@ -28,7 +28,7 @@ public class 멘토링 {
                         if (arr[k][l] == i) {
                             pi = l;
                         }
-                        if (arr[k][j] == j) {
+                        if (arr[k][l] == j) {
                             pj = l;
                         }
                     }
@@ -42,6 +42,6 @@ public class 멘토링 {
             }
         }
         System.out.println(result);
-        
+
     }
 }
