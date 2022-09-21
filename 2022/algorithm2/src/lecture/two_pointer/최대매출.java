@@ -1,4 +1,4 @@
-package lecture.array;
+package lecture.two_pointer;
 
 import java.util.Scanner;
 
