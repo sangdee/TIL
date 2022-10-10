@@ -14,7 +14,7 @@ public class TrTest {
         String temp = s.toLowerCase();
         String[] split = temp.split("");
         String[] alpha = new String[] {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"
-            , "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+            , "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "simple_outsourcing"};
         int[] countArr = new int[26];
         for (int i = 0; i < split.length; i++) {
             String val = split[i];
