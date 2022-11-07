@@ -36,7 +36,7 @@ AFTER_COMMIT (기본값) - 트랜잭션이 성공적으로 마무리(commit)됬�
 
 AFTER_ROLLBACK – 트랜잭션이 rollback 됬을 때 이벤트 실행
 
-AFTER_COMPLETION – 트랜잭션이 마무리 됬을 때(commit or rollback) 이벤트 실행
+AFTER_COMPLETION – 트랜잭션이 마무리 됐을 때(commit or rollback) 이벤트 실행
 
 BEFORE_COMMIT - 트랜잭션의 커밋 전에 이벤트 실행
 ```
