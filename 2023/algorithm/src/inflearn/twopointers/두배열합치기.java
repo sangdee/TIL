@@ -20,11 +20,9 @@ public class 두배열합치기 {
         int pointer2 = 0;
         while (pointer1 < arr1.length && pointer2 < arr2.length) {
             if (arr1[pointer1] < arr2[pointer2]) {
-                System.out.print(arr1[pointer1] + " ");
-                pointer1++;
+                System.out.print(arr1[pointer1++] + " ");
             } else {
-                System.out.print(arr2[pointer2] + " ");
-                pointer2++;
+                System.out.print(arr2[pointer2++] + " ");
             }
         }
         if (pointer1 < arr1.length) {
