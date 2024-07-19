@@ -13,24 +13,40 @@ public class 가위바위보 {
     static BiFunction<Integer, Integer, String> result = (a, b) -> {
         if (a.equals(b)) {
             return "D";
-        }
-       else if (a == 1) {
+        } else if (a == 1) {
             if (b == 2) {
                 return "B";
             }
-        }
-        else if (a == 2) {
+        } else if (a == 2) {
             if (b == 3) {
                 return "B";
             }
-        }
-        else {
+        } else {
             if (b == 1) {
                 return "B";
             }
         }
         return "A";
     };
+
+    public String rockScissorPaper(int a, int b) {
+        if (a == b) {
+            return "D";
+        } else if (a == 1) {
+            if (b == 2) {
+                return "B";
+            }
+        } else if (a == 2) {
+            if (b == 3) {
+                return "B";
+            }
+        } else {
+            if (b == 1) {
+                return "B";
+            }
+        }
+        return "A";
+    }
 
     public static void main(String[] args) {
         int testCase = sc.nextInt();
