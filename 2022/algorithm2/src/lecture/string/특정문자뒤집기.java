@@ -25,24 +25,44 @@ public class 특정문자뒤집기 {
             char c = s.charAt(i);
             if (Character.isLetter(c)) {
                 answer.append(temp.poll());
-            }else {
+            } else {
                 answer.append(c);
             }
         }
         System.out.println(answer);
     }
 }
-class Main{
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        char[] charArray = s.toCharArray();
+        int mid = s.length() / 2;
+        for (int i = 0; i < mid; i++) {
+            char c = charArray[i];
+            if (Character.isAlphabetic(c) && Character.isAlphabetic(charArray[s.length() - 1 - i])) {
+                char temp = charArray[i];
+                charArray[i] = charArray[s.length() - 1 - i];
+                charArray[s.length() - 1 - i] = temp;
+            }
+        }
+        String answer = "";
+        for (int i = 0; i < charArray.length; i++) {
+            answer += charArray[i];
+        }
+        System.out.println(answer);
+    }
+
     public String solution(String str) {
         char[] s = str.toCharArray();
         int lt = 0, rt = str.length() - 1;
         while (lt < rt) {
             if (!Character.isAlphabetic(s[lt])) {
                 lt++;
-            }
-            else if (!Character.isAlphabetic(s[rt])) {
+            } else if (!Character.isAlphabetic(s[rt])) {
                 rt--;
-            }else {
+            } else {
                 char tmp = s[lt];
                 s[lt] = s[rt];
                 s[rt] = tmp;
@@ -52,4 +72,6 @@ class Main{
         }
         return String.valueOf(s);
     }
+
+
 }
